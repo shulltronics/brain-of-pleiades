@@ -5,6 +5,1221 @@
 	(uuid "596fc7dc-b41b-407b-abba-2546cfbe6f90")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Shulltronics_Connectors:3030_Connector_SL_3pos_Vert"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 3.81 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3030_Connector_SL_3pos_Vert"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Shulltronics_Connectors:3030_Molex_SL_3pos_Vert"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3030_Connector_SL_3pos_Vert_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -2.54)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 2.54)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3030_Connector_SL_3pos_Vert_1_1"
+				(pin input line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Shulltronics_Connectors:3040_Connector_SL_8pos_Vert"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3040_Connector_SL_8pos_Vert"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Shulltronics_Connectors:3040_Molex_SL_8pos_Vert"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3040_Connector_SL_8pos_Vert_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 3.81 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 8.89) (xy 3.81 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -8.89) (xy 2.54 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 10.16)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -8.89)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -6.35)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -3.81)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -1.27)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 1.27)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 3.81)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 6.35)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 8.89)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3040_Connector_SL_8pos_Vert_1_1"
+				(pin input line
+					(at 0 8.89 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 6.35 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 3.81 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -8.89 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Shulltronics_Connectors:4039_Header_Male_Vert_16pin_0.1in"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.27 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4039_Header_Male_Vert_16pin_0.1in"
+				(at 31.75 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Shulltronics_Connectors:4039_Header_16pos_2.54mm"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/katalog/datasheet/6130xx11121.pdf"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "4039"
+				(at -1.27 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4039_Header_Male_Vert_16pin_0.1in_0_0"
+				(pin passive line
+					(at -2.54 -19.05 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4039_Header_Male_Vert_16pin_0.1in_1_1"
+				(pin passive line
+					(at -2.54 3.81 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 8.89 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 11.43 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 13.97 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 16.51 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 19.05 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -16.51 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Shulltronics_Connectors:4040_Header_Male_Vert_12pin_0.1in"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.27 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4040_Header_Male_Vert_12pin_0.1in"
+				(at 31.75 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Shulltronics_Connectors:4040_Header_12pos_2.54mm"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/katalog/datasheet/6130xx11121.pdf"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "4040"
+				(at -1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4040_Header_Male_Vert_12pin_0.1in_0_0"
+				(pin passive line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4040_Header_Male_Vert_12pin_0.1in_1_1"
+				(pin passive line
+					(at -2.54 8.89 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 11.43 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 13.97 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 3.81 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 6.35 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Shulltronics_ICs:4078_CD4051B_Analog_Switch"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -786,10 +2001,630 @@
 				)
 			)
 		)
+		(symbol "Shulltronics_Sch_Symbols:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Shulltronics_Sch_Symbols:Shulltronics_Logo"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Shulltronics_Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Shulltronics_Generics:Shulltronics_Logo"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Shulltronics_Logo_0_1"
+				(rectangle
+					(start -15.24 3.81)
+					(end 15.24 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 69.85 46.99)
+		(uuid "041c67fd-1452-4e2b-b3ff-6f5a52e741b8")
+	)
+	(no_connect
+		(at 64.77 49.53)
+		(uuid "33ab3be7-9827-4aa1-a534-d93958fcc62a")
+	)
+	(no_connect
+		(at 48.26 57.15)
+		(uuid "38c3fe00-46b1-405b-b81c-ad3371d2a873")
+	)
+	(no_connect
+		(at 48.26 64.77)
+		(uuid "3a7d3a74-31af-453e-a1be-7043abf14291")
+	)
+	(no_connect
+		(at 48.26 72.39)
+		(uuid "50f927c2-2229-417a-85f5-233f81b50b71")
+	)
+	(no_connect
+		(at 48.26 39.37)
+		(uuid "5513fcf6-5519-4cbe-b6a1-1182259fa19e")
+	)
+	(no_connect
+		(at 48.26 69.85)
+		(uuid "78e41ada-70ff-45d7-a8e3-5e7a04d18752")
+	)
+	(no_connect
+		(at 69.85 69.85)
+		(uuid "79328a18-b4af-4923-9bf5-8683bf313ad7")
+	)
+	(no_connect
+		(at 69.85 62.23)
+		(uuid "8d42812a-6029-4b81-b7eb-5cd9ee75d00a")
+	)
+	(no_connect
+		(at 69.85 72.39)
+		(uuid "92d5d255-4307-4ec7-8070-fc891511b407")
+	)
+	(no_connect
+		(at 48.26 34.29)
+		(uuid "a5ff0388-f33b-4831-a9da-4f6ca32ba6ae")
+	)
+	(no_connect
+		(at 69.85 64.77)
+		(uuid "ae37c587-c94a-4d50-8fc0-dd6ea870c6c2")
+	)
+	(no_connect
+		(at 64.77 54.61)
+		(uuid "b43b296a-d7c8-4835-a78d-ab1a897d8cb3")
+	)
+	(no_connect
+		(at 64.77 52.07)
+		(uuid "b92dfc7d-7bca-4e38-9b37-5c9ced25fda9")
+	)
+	(no_connect
+		(at 48.26 67.31)
+		(uuid "c3b7b0e0-4e52-4836-a04c-46f2ddc3180f")
+	)
+	(no_connect
+		(at 48.26 54.61)
+		(uuid "c7ba643d-f45c-404a-9f3d-2f5351fca343")
+	)
+	(no_connect
+		(at 69.85 67.31)
+		(uuid "c8945932-57c5-4946-badc-9fc95ce5ddd1")
+	)
+	(no_connect
+		(at 48.26 36.83)
+		(uuid "e3d808a3-bd4b-4c94-b800-1828bfeb741d")
+	)
+	(no_connect
+		(at 64.77 57.15)
+		(uuid "e8f6b922-835e-46b0-998c-10ffa0e333e0")
+	)
+	(no_connect
+		(at 69.85 59.69)
+		(uuid "ec63eb96-9d35-47f8-8083-f5e7b71b9337")
+	)
+	(no_connect
+		(at 69.85 44.45)
+		(uuid "f5943c3c-101a-4f9c-a1ac-11f6c4909c75")
+	)
+	(no_connect
+		(at 48.26 62.23)
+		(uuid "f9f30c36-503e-4d91-8de5-773f9d2d05a7")
+	)
+	(no_connect
+		(at 48.26 59.69)
+		(uuid "ff6fed62-fac2-4972-a85f-f95171f84b6a")
+	)
+	(wire
+		(pts
+			(xy 77.47 72.39) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016d140c-fdf0-49dc-b29b-ba73891d67b9")
+	)
+	(wire
+		(pts
+			(xy 48.26 52.07) (xy 41.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050de79b-8b5c-4868-88d6-084773100739")
+	)
+	(wire
+		(pts
+			(xy 204.47 57.15) (xy 228.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f78431-815d-4913-a60b-f701ac93c31b")
+	)
+	(wire
+		(pts
+			(xy 41.91 57.15) (xy 48.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbe8223-a58a-4ad7-8f4e-1a47b438dce3")
+	)
+	(wire
+		(pts
+			(xy 48.26 64.77) (xy 41.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1540ef2d-9823-42f6-aa50-5ef1d4838767")
+	)
+	(wire
+		(pts
+			(xy 41.91 72.39) (xy 48.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b637b9d-91ed-4d03-bd3b-50064446f2f6")
+	)
+	(wire
+		(pts
+			(xy 52.07 41.91) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c943992-f258-4019-8a76-61b9640d3c3b")
+	)
+	(wire
+		(pts
+			(xy 77.47 46.99) (xy 69.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa30f7d-34ee-4264-ab52-bc55eb899f92")
+	)
+	(wire
+		(pts
+			(xy 64.77 52.07) (xy 77.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b98d43-6c62-46c2-a967-0c134fed000f")
+	)
+	(wire
+		(pts
+			(xy 64.77 54.61) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4068be67-66cb-4d71-8f6e-a3a4336b6991")
+	)
+	(wire
+		(pts
+			(xy 204.47 59.69) (xy 228.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425fea4d-5613-4429-a8c2-6e1dcd147d84")
+	)
+	(wire
+		(pts
+			(xy 204.47 54.61) (xy 228.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aa1e1d-8dc1-4783-a17c-8e3baf2dd304")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 52.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbf0965-b4eb-4e5e-8c9c-1f8bcb5b8c1b")
+	)
+	(wire
+		(pts
+			(xy 204.47 52.07) (xy 228.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fb0770-94e2-4816-83b5-195194e7a448")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bfb75e-3cf0-4035-84a4-597b64cae518")
+	)
+	(wire
+		(pts
+			(xy 77.47 59.69) (xy 69.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f14724-969c-49f4-89d6-af57674b1291")
+	)
+	(wire
+		(pts
+			(xy 77.47 69.85) (xy 69.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dde334f-f8c9-471e-b0ba-a05088fbd493")
+	)
+	(wire
+		(pts
+			(xy 48.26 67.31) (xy 41.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f6b865-8d81-4d49-a676-69a31625b7d7")
+	)
+	(wire
+		(pts
+			(xy 48.26 44.45) (xy 41.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a92eed-66d5-4bf8-83ab-7b1094debcd9")
+	)
+	(wire
+		(pts
+			(xy 48.26 49.53) (xy 41.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a309d1c6-d410-4c0a-af1a-278a76951a83")
+	)
+	(wire
+		(pts
+			(xy 48.26 34.29) (xy 41.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48eb437-66d1-4b93-a69e-f4da329f9d11")
+	)
+	(wire
+		(pts
+			(xy 48.26 69.85) (xy 41.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73f782d-f0da-4d65-b691-5888509c194b")
+	)
+	(wire
+		(pts
+			(xy 204.47 67.31) (xy 228.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9251ff5-cba4-47d9-aba7-16703053d604")
+	)
+	(wire
+		(pts
+			(xy 41.91 36.83) (xy 48.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab95f8f7-3d13-4643-8bee-7d878523953f")
+	)
+	(wire
+		(pts
+			(xy 64.77 57.15) (xy 77.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba21138-cc81-45f1-9942-3ae539bed60a")
+	)
+	(wire
+		(pts
+			(xy 204.47 64.77) (xy 228.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ecbe09-7fbc-482b-a115-fe9552431421")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 41.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd481f5e-b826-4668-8911-66909a884eac")
+	)
+	(wire
+		(pts
+			(xy 77.47 64.77) (xy 69.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed25d9f-ff33-4a86-b0ee-b132f1278743")
+	)
+	(wire
+		(pts
+			(xy 64.77 49.53) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2fba49-f436-40b7-9960-4549c9c4389f")
+	)
+	(wire
+		(pts
+			(xy 48.26 46.99) (xy 41.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1930315-6d94-4766-9f1e-31a0d935ac9f")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd60ca07-2895-4826-ab91-c16a3c4b430a")
+	)
+	(wire
+		(pts
+			(xy 48.26 62.23) (xy 41.91 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03297fe-e7ae-4eb0-bc20-24ee81a95fb1")
+	)
+	(wire
+		(pts
+			(xy 41.91 54.61) (xy 48.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51f6694-7681-4409-98f0-692639737894")
+	)
+	(wire
+		(pts
+			(xy 204.47 62.23) (xy 228.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e710a8b9-d45a-42c6-9048-c965ec6e44bd")
+	)
+	(wire
+		(pts
+			(xy 204.47 49.53) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9f92ed-c3d1-4a27-8440-4999c986b013")
+	)
+	(wire
+		(pts
+			(xy 69.85 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03e18a2-1ca2-4c0f-9e7e-2f2be1b1ebb2")
+	)
+	(wire
+		(pts
+			(xy 41.91 39.37) (xy 48.26 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06c9558-a699-48d5-be2f-cc5590f009ff")
 	)
 	(rectangle
 		(start 15.24 13.97)
-		(end 140.97 147.32)
+		(end 105.918 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -801,10 +2636,10 @@
 	)
 	(text "Feather RP2040 Headers"
 		(exclude_from_sim no)
-		(at 65.024 21.59 0)
+		(at 60.452 21.082 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 3.81 3.81)
 				(thickness 1.016)
 				(bold yes)
 				(italic yes)
@@ -812,9 +2647,666 @@
 		)
 		(uuid "6077d0b3-6f33-4a2b-9e7a-09c1f3bfb4ae")
 	)
+	(text "Analog Inputs & Mux"
+		(exclude_from_sim no)
+		(at 195.834 22.098 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "7ae7c67a-e4b0-48d6-bb7b-98a33d9a3a08")
+	)
+	(text "NeoPixel Outputs"
+		(exclude_from_sim no)
+		(at 200.152 98.298 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "c830eac7-104a-47e6-add0-3160f82b40a8")
+	)
+	(text "MIDI Output"
+		(exclude_from_sim no)
+		(at 57.658 107.442 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "e4ea0122-a6cd-4672-be50-e0d655f74eb8")
+	)
+	(label "SCK"
+		(at 48.26 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0673ad29-9b34-4500-88a4-4bb17ff92089")
+	)
+	(label "D12"
+		(at 64.77 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a33e8b8-b81f-4da2-8b4b-77a78a06e4bb")
+	)
+	(label "A2"
+		(at 48.26 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "315ab24e-2352-4844-ab18-f45fd52ce65e")
+	)
+	(label "SDA"
+		(at 69.85 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33b51ae5-b43c-49f2-a789-b563c40f8fb2")
+	)
+	(label "A3"
+		(at 48.26 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35901bcc-5cd7-43d9-b2f9-f38c2f72cbee")
+	)
+	(label "~{EN}"
+		(at 69.85 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ae6a3f5-6bdf-4dde-8d5d-f224d0b7c19f")
+	)
+	(label "VBAT"
+		(at 71.12 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42d1b8d6-2467-45cd-856c-bb8cb2146e5c")
+	)
+	(label "MOSI"
+		(at 48.26 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6823ac26-44e9-4b43-bcb7-bee9aadb92d8")
+	)
+	(label "TX"
+		(at 48.26 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "771fa979-45dd-4f90-8884-d249eb840510")
+	)
+	(label "D13"
+		(at 64.77 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85aaf099-79d4-4c3a-a247-f3c907241656")
+	)
+	(label "USB"
+		(at 64.77 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8efcaa8b-f67e-4176-a7eb-b8a04f88f2b4")
+	)
+	(label "D6"
+		(at 69.85 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99213544-4f6d-4f74-a1a5-b35aebec28c8")
+	)
+	(label "A1"
+		(at 48.26 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a14b4687-ccf0-4ce9-ae40-6e24d11a3853")
+	)
+	(label "D11"
+		(at 64.77 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a720f757-e0a8-4a90-b858-011e72b3effc")
+	)
+	(label "A0"
+		(at 48.26 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad2b3401-63d9-4340-8ffb-47da87fe4097")
+	)
+	(label "D9"
+		(at 69.85 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd89c81e-ce17-42f5-aa60-578d1351356b")
+	)
+	(label "MISO"
+		(at 48.26 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c33c9185-6ff0-49a6-8b31-7a8b2f70d8db")
+	)
+	(label "VREF"
+		(at 48.26 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1d8c334-4fec-406a-8799-31f14f73f8fe")
+	)
+	(label "USER"
+		(at 48.26 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0587cc6-17d6-4656-8f8a-95c8f6c41e3e")
+	)
+	(label "~{RST}"
+		(at 48.26 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5bca387-48c9-4204-a2d3-f243fa49e9f2")
+	)
+	(label "RX"
+		(at 48.26 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eab6c6ec-ee62-4fae-973d-063576bd9a6c")
+	)
+	(label "D10"
+		(at 69.85 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "effd7e02-cc2f-4a99-97bc-87bce9ce6081")
+	)
+	(label "SCL"
+		(at 69.85 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb79f81f-267c-42bd-9004-0d3c42b6a30b")
+	)
+	(symbol
+		(lib_id "Shulltronics_Connectors:4040_Header_Male_Vert_12pin_0.1in")
+		(at 80.01 58.42 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14e6ab28-4c74-45f8-a575-9a8510cd143b")
+		(property "Reference" "J6"
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4040_Header_Male_Vert_12pin_0.1in"
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Shulltronics_Connectors:4040_Header_12pos_2.54mm"
+			(at 80.01 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/6130xx11121.pdf"
+			(at 80.01 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "4040"
+			(at 83.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c54bf2b-a8f8-4f8a-8419-bd88c6d7be93")
+		)
+		(pin "10"
+			(uuid "a2b6120b-742d-4e4c-9f7c-c08e9ad032e8")
+		)
+		(pin "11"
+			(uuid "0668c30c-52af-4de4-b2f4-aba1748f3328")
+		)
+		(pin "12"
+			(uuid "6357def7-5fa6-4f2e-9a08-422a01d16923")
+		)
+		(pin "2"
+			(uuid "7c693ba8-4da0-487c-87d9-fe8c3882c179")
+		)
+		(pin "3"
+			(uuid "0c993fc8-de0d-45d2-9699-9038d0d5579b")
+		)
+		(pin "4"
+			(uuid "e0f8fc41-ba8d-4bbd-b8ae-e17abf5b16a0")
+		)
+		(pin "5"
+			(uuid "2908ec02-926a-43ff-beff-bba10d74e3e0")
+		)
+		(pin "6"
+			(uuid "9e44b1b7-0c65-4f6f-983f-d8f9adb93752")
+		)
+		(pin "7"
+			(uuid "a3ecc1aa-acc5-4235-89db-92eb1ed52f06")
+		)
+		(pin "8"
+			(uuid "d8797b65-0c7a-4238-995f-42cdaac41b52")
+		)
+		(pin "9"
+			(uuid "8873c1d9-4063-4d23-babb-cc64c92c22a6")
+		)
+		(instances
+			(project "brain-of-pleiades"
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Shulltronics_Sch_Symbols:GND")
+		(at 52.07 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ac72418-5b22-4cf5-ba02-52e9c4032350")
+		(property "Reference" "#PWR01"
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f8fbfe2-7e1a-4e3b-bfb2-93c3089a625c")
+		)
+		(instances
+			(project "brain-of-pleiades"
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Shulltronics_Connectors:3030_Connector_SL_3pos_Vert")
+		(at 242.57 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de8d5f7-7353-4340-8143-8f46b24b33c9")
+		(property "Reference" "J3"
+			(at 248.92 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3030_Connector_SL_3pos_Vert"
+			(at 248.92 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Shulltronics_Connectors:3030_Molex_SL_3pos_Vert"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2d2a2e42-f692-47c6-b684-880f0f5caeb5")
+		)
+		(pin "1"
+			(uuid "8704e4a1-aac1-4076-b972-5dbfb291965b")
+		)
+		(pin "2"
+			(uuid "b1cbae22-6c12-48c8-9f35-8cf197af3834")
+		)
+		(instances
+			(project "brain-of-pleiades"
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Shulltronics_Connectors:4039_Header_Male_Vert_16pin_0.1in")
+		(at 39.37 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82573e8d-457b-40b7-81be-d24ea3b661be")
+		(property "Reference" "J5"
+			(at 34.925 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4039_Header_Male_Vert_16pin_0.1in"
+			(at 7.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Shulltronics_Connectors:4039_Header_16pos_2.54mm"
+			(at 39.37 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/6130xx11121.pdf"
+			(at 39.37 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "4039"
+			(at 34.925 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "562a301e-0a65-4df7-b738-c7b77ab63533")
+		)
+		(pin "10"
+			(uuid "030b76cd-69e1-443b-9fc3-acda9986360d")
+		)
+		(pin "11"
+			(uuid "93e86835-8135-4361-8245-079cc11fde78")
+		)
+		(pin "12"
+			(uuid "f85e78cc-bedf-4a50-b411-ef3f839efa89")
+		)
+		(pin "13"
+			(uuid "0d31163c-21e9-42bb-b0f1-8c53cdd21972")
+		)
+		(pin "14"
+			(uuid "7c487f32-3935-4b22-9ced-389221f13ff6")
+		)
+		(pin "15"
+			(uuid "fe2604fc-c5ea-433b-96ce-872464365c77")
+		)
+		(pin "16"
+			(uuid "91d90146-a08c-498a-8b6a-a1bc79b02f57")
+		)
+		(pin "2"
+			(uuid "c73b4aab-c424-42cb-b1bf-7ccfbfd7a775")
+		)
+		(pin "3"
+			(uuid "bf75b509-bbed-4262-b1d8-0891b7a3255b")
+		)
+		(pin "4"
+			(uuid "5760ad93-3468-47b9-87d2-04ec558215a9")
+		)
+		(pin "5"
+			(uuid "c6a60fe7-a253-48e0-ab92-f5cc489b9803")
+		)
+		(pin "6"
+			(uuid "d03f4264-0ec3-47bf-a3ec-19b4e3bc5f3a")
+		)
+		(pin "7"
+			(uuid "1e8babf7-93f3-4ad5-a83f-f5bec77f4594")
+		)
+		(pin "8"
+			(uuid "f674f0cc-ddbd-43c4-8aed-ec12605eb3c3")
+		)
+		(pin "9"
+			(uuid "37444f58-cee9-4e5e-821a-e2bef671f778")
+		)
+		(instances
+			(project "brain-of-pleiades"
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Shulltronics_ICs:4078_CD4051B_Analog_Switch")
-		(at 181.61 73.66 0)
+		(at 191.77 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -823,7 +3315,7 @@
 		(fields_autoplaced yes)
 		(uuid "842275e0-7af7-4347-8660-cf89aeff425a")
 		(property "Reference" "U1"
-			(at 186.3441 53.34 0)
+			(at 196.5041 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +3324,7 @@
 			)
 		)
 		(property "Value" "4078_CD4051B_Analog_Switch"
-			(at 186.3441 55.88 0)
+			(at 196.5041 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -841,7 +3333,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 185.42 92.71 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4052b.pdf"
-			(at 181.102 71.12 0)
+			(at 191.262 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +3352,7 @@
 			)
 		)
 		(property "Description" "CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16"
-			(at 181.61 73.66 0)
+			(at 191.77 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,6 +3412,376 @@
 			(project ""
 				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Shulltronics_Connectors:3030_Connector_SL_3pos_Vert")
+		(at 242.57 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f2b4d00-171e-4de7-9e42-58ef851b6387")
+		(property "Reference" "J7"
+			(at 248.92 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3030_Connector_SL_3pos_Vert"
+			(at 248.92 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Shulltronics_Connectors:3030_Molex_SL_3pos_Vert"
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d8973de9-a2de-47f7-b3e9-162ac7e01f3e")
+		)
+		(pin "1"
+			(uuid "3b2745d5-ee55-4716-9fad-fadf8b1ce3e7")
+		)
+		(pin "2"
+			(uuid "5adde329-b660-474b-b4c3-2268f17d221e")
+		)
+		(instances
+			(project "brain-of-pleiades"
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Shulltronics_Connectors:3030_Connector_SL_3pos_Vert")
+		(at 242.57 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbc07678-10b1-4522-80ab-ecb5b0c83b86")
+		(property "Reference" "J2"
+			(at 248.92 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3030_Connector_SL_3pos_Vert"
+			(at 248.92 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Shulltronics_Connectors:3030_Molex_SL_3pos_Vert"
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1c430d27-b33d-4aeb-97a1-11e74c3b9777")
+		)
+		(pin "1"
+			(uuid "186a3338-6ce0-40c5-9d18-fc84169016de")
+		)
+		(pin "2"
+			(uuid "c1789aa4-9672-4718-b68e-7e379cebbb8d")
+		)
+		(instances
+			(project ""
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Shulltronics_Connectors:3030_Connector_SL_3pos_Vert")
+		(at 242.57 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d417eac9-3733-409f-89e5-5f81b838a6e1")
+		(property "Reference" "J4"
+			(at 248.92 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3030_Connector_SL_3pos_Vert"
+			(at 248.92 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Shulltronics_Connectors:3030_Molex_SL_3pos_Vert"
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6f0dbca5-bfc6-4679-9697-0bd9f5e02b78")
+		)
+		(pin "1"
+			(uuid "e24d547c-4982-4190-ad1a-f2500bf572ea")
+		)
+		(pin "2"
+			(uuid "31537b26-0819-4af8-88a4-95b0dcf7c160")
+		)
+		(instances
+			(project "brain-of-pleiades"
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Shulltronics_Sch_Symbols:Shulltronics_Logo")
+		(at 195.58 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcee03cd-2b09-4c79-882d-4f6acd08333d")
+		(property "Reference" "L1"
+			(at 195.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shulltronics_Logo"
+			(at 195.58 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Shulltronics_Generics:Shulltronics_Logo"
+			(at 195.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Shulltronics_Connectors:3040_Connector_SL_8pos_Vert")
+		(at 228.6 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed6840a7-e07a-4507-a484-ed346fe58b72")
+		(property "Reference" "J1"
+			(at 234.95 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3040_Connector_SL_8pos_Vert"
+			(at 234.95 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Shulltronics_Connectors:3040_Molex_SL_8pos_Vert"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a9c7580d-c5fd-40c9-9745-398a43b1b78a")
+		)
+		(pin "8"
+			(uuid "465e9e48-0f29-4eed-98ff-6f561b095f18")
+		)
+		(pin "1"
+			(uuid "86d52d5e-bceb-42e3-a7ce-a16764806beb")
+		)
+		(pin "5"
+			(uuid "95caad87-e78e-4716-ad6e-fdfc2dc83c19")
+		)
+		(pin "6"
+			(uuid "d4c5cb4e-62e7-4876-9512-bb2c293d622c")
+		)
+		(pin "7"
+			(uuid "58182d13-e1dc-4b64-a514-b1e2b535cb49")
+		)
+		(pin "4"
+			(uuid "a1e01823-7a85-4dcc-8354-99ff8c1b8d95")
+		)
+		(pin "2"
+			(uuid "e47589ec-734d-41e0-b270-0258110f6e49")
+		)
+		(instances
+			(project ""
+				(path "/596fc7dc-b41b-407b-abba-2546cfbe6f90"
+					(reference "J1")
 					(unit 1)
 				)
 			)
